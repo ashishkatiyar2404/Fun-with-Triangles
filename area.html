@@ -4,34 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hypotenuse</title>
+    <title>Area</title>
 </head>
 <body>
     <nav>
         <a href="index.html" class="item-active">Is Triangle?</a>
         <a href="quiz.html">Quiz</a>
-        <a href="hypo.html">Hypotenuse</a>
+        <a href="hypotenuse.html">Hypotenuse</a>
         <a href="area.html">Area</a>
         <a href="bonus.html">Bonus</a>
     </nav>
-    <h1 class="heading">Check Hypotenuse</h1>
-    <h2 class="formula">Length of Hypotenuse = sqrt(a² + b²)</h2>
+    <h1 class="heading">Check Area Of a Triangle</h1>
+    <h2 class="formula">Area of a triangle = 1/2(Base * Height)</h2>
     <div class="angle-container">
         <div class="input-container">
-            <label for="a"
-                >a =
-                <input class="side-input" id="a" />
+            <label for="base"
+                >Base(in cm)
+                <input class="area-input" id="base" />
             </label>
         </div>
         <div class="input-container">
-            <label for="b"
-                >b =
-                <input class="side-input" id="b" />
+            <label for="height"
+                >Height(in cm)
+                <input class="area-input" id="height" />
             </label>
         </div>
-        <button id="hypotenuse-btn" class="btn">Check Hypotenuse</button>
+        <button id="area-btn" class="btn">Check Area</button>
     </div>
-    <div id="hypotenuse-output" class="output"></div>
-    <script src="hypo.js"></script>
+    <div id="area-output" class="output"></div>
+    <script src="area.js"></script>
 </body>
 </html>
